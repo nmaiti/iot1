@@ -2,7 +2,7 @@
 function onConnect() {
   // Once a connection has been made, make a subscription and send a message.
   console.log("onConnect");
-  client.subscribe("alart");
+  client.subscribe("alert");
   client.subscribe("power");
   client.subscribe("pressure");
   client.subscribe("temp_desktop");
